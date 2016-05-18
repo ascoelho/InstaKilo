@@ -10,6 +10,15 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UICollectionView *photoCollectionView;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
+
+
+
+
+@property (nonatomic, strong) NSArray *dataArray;
+@property (nonatomic, strong) NSMutableArray *photosArray;
+@property (nonatomic, strong) NSMutableArray *sectionsArray;
 
 @end
 
